@@ -1,0 +1,13 @@
+[package]
+name = "my_extension"
+version = "0.1.0"
+edition = "2024"
+
+
+[lib]
+name = "my_extension"
+# "cdylib" is critical for creating a Python-compatible C-style dynamic library
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.23", features = ["extension-module"] }
