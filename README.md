@@ -1,4 +1,4 @@
-# Rust Python Extension
+# Rust Python Extension Template
 
 A template for creating high-performance Python extensions using Rust and PyO3, compiled as `.pyd` (Windows)
 
